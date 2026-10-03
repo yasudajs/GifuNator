@@ -11,6 +11,7 @@ const state = {
   usedQuestionIds: new Set(),
   currentChoices: [],
   history: [],
+  wrongTopicIds: new Set(),
   gameStatus: 'playing', // 'playing' | 'won' | 'lost'
   activeFilter: 'all',
   consecutiveWins: 0
@@ -120,6 +121,7 @@ function startNewGame() {
   state.gameStatus = 'playing';
   state.remainingQuestions = MAX_QUESTIONS;
   state.usedQuestionIds.clear();
+  state.wrongTopicIds.clear();
   state.history = [];
 
   // ランダムにお題を1つ選択
@@ -209,10 +211,18 @@ function checkAnswer(answerInput, type = 'candidate') {
   const target = state.targetTopic;
 
   let isCorrect = false;
+  let displayName = '';
 
   if (type === 'candidate') {
-    // 候補ボタン（IDまたは完全一致）
-    isCorrect = (answerInput === target.id || answerInput === target.name);
+    // 候補ボタン（お題オブジェクト）
+    const topic = answerInput;
+    displayName = topic.name;
+    isCorrect = (topic.id === target.id);
+
+    if (!isCorrect) {
+      state.wrongTopicIds.add(topic.id);
+      renderCandidates();
+    }
   } else {
     // 直接入力（正規化して比較）
     const normalizedInput = normalizeString(answerInput);
@@ -220,20 +230,34 @@ function checkAnswer(answerInput, type = 'candidate') {
     const normalizedTargetReading = normalizeString(target.reading || '');
     const normalizedAliases = (target.aliases || []).map(normalizeString);
 
+    // 登録お題の中から入力に一致するものを探す
+    const matchedTopic = state.topics.find(t => 
+      normalizeString(t.name) === normalizedInput ||
+      normalizeString(t.reading || '') === normalizedInput ||
+      (t.aliases || []).some(a => normalizeString(a) === normalizedInput)
+    );
+
+    displayName = matchedTopic ? matchedTopic.name : answerInput;
+
     if (
       normalizedInput === normalizedTargetName ||
       normalizedInput === normalizedTargetReading ||
       normalizedAliases.includes(normalizedInput)
     ) {
       isCorrect = true;
+    } else {
+      if (matchedTopic) {
+        state.wrongTopicIds.add(matchedTopic.id);
+        renderCandidates();
+      }
     }
   }
 
   if (isCorrect) {
     endGame(true);
   } else {
-    showWrongFeedback(`「${answerInput}」は違います！まだお題は隠されているぞ…！`);
-    setMascotSpeech(`ふっふっふ…「${answerInput}」ではないぞ！<br>もっと質問で絞り込んでみるのじゃ！`);
+    showWrongFeedback(`「${displayName}」は違います！まだお題は隠されているぞ…！`);
+    setMascotSpeech(`ふっふっふ…「${displayName}」ではないぞ！<br>もっと質問で絞り込んでみるのじゃ！`);
   }
 }
 
@@ -295,8 +319,18 @@ function renderCandidates() {
   filtered.forEach(topic => {
     const btn = document.createElement('button');
     btn.className = 'candidate-btn';
-    btn.textContent = topic.name;
-    btn.addEventListener('click', () => checkAnswer(topic.id, 'candidate'));
+    
+    const isWrong = state.wrongTopicIds.has(topic.id);
+    if (isWrong) {
+      btn.classList.add('disabled-wrong');
+      btn.disabled = true;
+      btn.title = '選択済み（不正解）';
+      btn.innerHTML = `<span class="cross-icon">✕</span> <s>${topic.name}</s>`;
+    } else {
+      btn.textContent = topic.name;
+      btn.addEventListener('click', () => checkAnswer(topic, 'candidate'));
+    }
+
     elements.candidateList.appendChild(btn);
   });
 }
