@@ -32,7 +32,7 @@
         "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
         "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
         "q_nobunaga": true, "q_samurai": true, "q_edo": false, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
-        "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": true,
+        "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
         "q_festival_dance": true, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
         "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
         "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
@@ -49,8 +49,8 @@
       "answers": {
         "q_mino": true, "q_hida": false, "q_food": false, "q_spot": true, "q_craft": false, "q_person": true,
         "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
-        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": true,
-        "q_nobunaga": false, "q_samurai": true, "q_edo": false, "q_winter_snow": false, "q_summer": false, "q_autumn": true,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
+        "q_nobunaga": false, "q_samurai": true, "q_edo": false, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
         "q_takehome": false, "q_paper": false, "q_iron_blade": true, "q_ceramic": false, "q_animal": false, "q_red": false,
         "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
         "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
@@ -69,10 +69,10 @@
         "q_mino": true, "q_hida": false, "q_food": false, "q_spot": true, "q_craft": false, "q_person": true,
         "q_meat": false, "q_fish": true, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
         "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": true, "q_mountain": false,
-        "q_nobunaga": true, "q_samurai": false, "q_edo": true, "q_winter_snow": false, "q_summer": true, "q_autumn": false,
+        "q_nobunaga": true, "q_samurai": false, "q_edo": false, "q_winter_snow": false, "q_summer": true, "q_autumn": false,
         "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": true, "q_red": false,
         "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": true, "q_kitchen": false, "q_lake_pond": false,
-        "q_famous_three": false, "q_fire": true, "q_clothing": true, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_famous_three": false, "q_fire": true, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
         "q_national_treasure": false, "q_wooden": true, "q_sound_music": false, "q_street": false
       }
     },
@@ -91,7 +91,7 @@
         "q_nobunaga": false, "q_samurai": false, "q_edo": false, "q_winter_snow": false, "q_summer": true, "q_autumn": true,
         "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
         "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": true,
-        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
         "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
       }
     },
@@ -125,11 +125,11 @@
       "answers": {
         "q_mino": true, "q_hida": false, "q_food": false, "q_spot": true, "q_craft": false, "q_person": false,
         "q_meat": false, "q_fish": true, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
-        "q_building": true, "q_world_heritage": false, "q_hotspring": false, "q_water_river": true, "q_mountain": true,
+        "q_building": true, "q_world_heritage": true, "q_hotspring": false, "q_water_river": true, "q_mountain": true,
         "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": false, "q_summer": true, "q_autumn": false,
         "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
         "q_festival_dance": true, "q_cave": false, "q_ropeway": false, "q_night": true, "q_kitchen": false, "q_lake_pond": false,
-        "q_famous_three": false, "q_fire": false, "q_clothing": true, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
         "q_national_treasure": false, "q_wooden": true, "q_sound_music": true, "q_street": true
       }
     },
@@ -145,10 +145,10 @@
         "q_mino": true, "q_hida": false, "q_food": false, "q_spot": true, "q_craft": false, "q_person": false,
         "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
         "q_building": true, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
-        "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": false, "q_summer": false, "q_autumn": true,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
         "q_takehome": false, "q_paper": true, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
         "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
-        "q_famous_three": false, "q_fire": true, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
         "q_national_treasure": true, "q_wooden": true, "q_sound_music": false, "q_street": true
       }
     },
@@ -180,13 +180,13 @@
       "category": "グルメ・特産",
       "description": "『清流の女王』と呼ばれる岐阜県の県魚。長良川の鮎は世界農業遺産（GIAHS）にも認定されており、香ばしく炭火で焼き上げた塩焼きは夏の風物詩です。",
       "answers": {
-        "q_mino": true, "q_hida": true, "q_food": true, "q_spot": false, "q_craft": false, "q_person": false,
+        "q_mino": true, "q_hida": false, "q_food": true, "q_spot": false, "q_craft": false, "q_person": false,
         "q_meat": false, "q_fish": true, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": true,
         "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": true, "q_mountain": false,
         "q_nobunaga": true, "q_samurai": false, "q_edo": false, "q_winter_snow": false, "q_summer": true, "q_autumn": false,
         "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": true, "q_red": false,
-        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": true, "q_lake_pond": false,
-        "q_famous_three": false, "q_fire": true, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
         "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
       }
     },
@@ -201,7 +201,7 @@
       "answers": {
         "q_mino": true, "q_hida": false, "q_food": true, "q_spot": false, "q_craft": false, "q_person": false,
         "q_meat": false, "q_fish": false, "q_sweet": true, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
-        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": true,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
         "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": false, "q_summer": false, "q_autumn": true,
         "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
         "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
@@ -222,9 +222,9 @@
         "q_meat": true, "q_fish": false, "q_sweet": false, "q_noodle": true, "q_miso": false, "q_rice": false, "q_hot": true,
         "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
         "q_nobunaga": false, "q_samurai": false, "q_edo": false, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
-        "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": true,
-        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": true, "q_kitchen": true, "q_lake_pond": false,
-        "q_famous_three": false, "q_fire": true, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
+        "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
         "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
       }
     },
@@ -239,11 +239,11 @@
       "answers": {
         "q_mino": true, "q_hida": true, "q_food": true, "q_spot": false, "q_craft": false, "q_person": false,
         "q_meat": true, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": true, "q_rice": false, "q_hot": true,
-        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": true,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
         "q_nobunaga": false, "q_samurai": false, "q_edo": false, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
         "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
-        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": true, "q_lake_pond": false,
-        "q_famous_three": false, "q_fire": true, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
         "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
       }
     },
@@ -258,10 +258,10 @@
       "answers": {
         "q_mino": true, "q_hida": false, "q_food": true, "q_spot": false, "q_craft": false, "q_person": false,
         "q_meat": true, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
-        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": true,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
         "q_nobunaga": false, "q_samurai": false, "q_edo": false, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
         "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
-        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": true, "q_lake_pond": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
         "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
         "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
       }
@@ -338,7 +338,7 @@
         "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": true, "q_summer": false, "q_autumn": false,
         "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
         "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": true, "q_kitchen": false, "q_lake_pond": false,
-        "q_famous_three": false, "q_fire": true, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
         "q_national_treasure": true, "q_wooden": true, "q_sound_music": false, "q_street": true
       }
     },
@@ -352,13 +352,13 @@
       "description": "草津・有馬と並ぶ『日本三名泉』の一つ。アルカリ性単純温泉のまろやかで滑らかなお湯は『美肌の湯』として知られ、飛騨川沿いに情緒ある温泉街が広がります。",
       "answers": {
         "q_mino": false, "q_hida": true, "q_food": false, "q_spot": true, "q_craft": false, "q_person": false,
-        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": true,
-        "q_building": true, "q_world_heritage": false, "q_hotspring": true, "q_water_river": true, "q_mountain": true,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": true, "q_water_river": true, "q_mountain": true,
         "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": true, "q_summer": false, "q_autumn": false,
         "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
         "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": true, "q_kitchen": false, "q_lake_pond": false,
         "q_famous_three": true, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
-        "q_national_treasure": false, "q_wooden": true, "q_sound_music": false, "q_street": true
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": true
       }
     },
     {
@@ -429,11 +429,11 @@
       "answers": {
         "q_mino": false, "q_hida": true, "q_food": true, "q_spot": false, "q_craft": false, "q_person": false,
         "q_meat": true, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": true,
-        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": true,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
         "q_nobunaga": false, "q_samurai": false, "q_edo": false, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
-        "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": true, "q_red": true,
-        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": true, "q_lake_pond": false,
-        "q_famous_three": false, "q_fire": true, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
+        "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
         "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
       }
     },
@@ -448,11 +448,11 @@
       "answers": {
         "q_mino": false, "q_hida": true, "q_food": true, "q_spot": false, "q_craft": false, "q_person": false,
         "q_meat": true, "q_fish": true, "q_sweet": false, "q_noodle": true, "q_miso": false, "q_rice": false, "q_hot": true,
-        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": true,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
         "q_nobunaga": false, "q_samurai": false, "q_edo": false, "q_winter_snow": true, "q_summer": false, "q_autumn": false,
         "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
-        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": true, "q_lake_pond": false,
-        "q_famous_three": false, "q_fire": true, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
         "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
       }
     },
@@ -467,12 +467,12 @@
       "answers": {
         "q_mino": false, "q_hida": true, "q_food": true, "q_spot": false, "q_craft": false, "q_person": false,
         "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": true, "q_rice": false, "q_hot": true,
-        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": true,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
         "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": true, "q_summer": false, "q_autumn": true,
         "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
-        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": true, "q_lake_pond": false,
-        "q_famous_three": false, "q_fire": true, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
-        "q_national_treasure": false, "q_wooden": true, "q_sound_music": false, "q_street": false
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
       }
     },
     {
@@ -489,9 +489,9 @@
         "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
         "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
         "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
-        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": true, "q_lake_pond": false,
-        "q_famous_three": false, "q_fire": true, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
-        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": true
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
       }
     },
     {
@@ -504,11 +504,11 @@
       "description": "飛騨特産の赤かぶらを塩漬けにし、乳酸発酵によって鮮やかな紅色に染まる伝統の漬物。厳しい冬を越すための保存食として受け継がれ、心地よい酸味と歯ごたえが特徴です。",
       "answers": {
         "q_mino": false, "q_hida": true, "q_food": true, "q_spot": false, "q_craft": false, "q_person": false,
-        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
-        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": true,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": true, "q_rice": false, "q_hot": false,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
         "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": true, "q_summer": false, "q_autumn": false,
         "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": true,
-        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": true, "q_lake_pond": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
         "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
         "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
       }
@@ -526,7 +526,7 @@
         "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
         "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
         "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
-        "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": true, "q_red": true,
+        "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": true,
         "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
         "q_famous_three": false, "q_fire": false, "q_clothing": true, "q_gift_sweet": false, "q_alcohol_snack": false,
         "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
@@ -541,13 +541,13 @@
       "category": "祭り・伝統文化",
       "description": "京都の祇園祭、埼玉の秩父夜祭と並ぶ『日本三大美祭』の一つ。豪華絢爛な『屋台（山車）』と精密なからくり人形の奉納、夜の提灯行列がユネスコ無形文化遺産にも指定されています。",
       "answers": {
-        "q_mino": false, "q_hida": true, "q_food": false, "q_spot": false, "q_craft": true, "q_person": true,
+        "q_mino": false, "q_hida": true, "q_food": false, "q_spot": true, "q_craft": true, "q_person": true,
         "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
         "q_building": false, "q_world_heritage": true, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
         "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": false, "q_summer": false, "q_autumn": true,
         "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": true,
         "q_festival_dance": true, "q_cave": false, "q_ropeway": false, "q_night": true, "q_kitchen": false, "q_lake_pond": false,
-        "q_famous_three": true, "q_fire": false, "q_clothing": true, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_famous_three": true, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
         "q_national_treasure": true, "q_wooden": true, "q_sound_music": true, "q_street": true
       }
     },
@@ -562,7 +562,7 @@
       "answers": {
         "q_mino": false, "q_hida": true, "q_food": false, "q_spot": false, "q_craft": true, "q_person": false,
         "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
-        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": true,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
         "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
         "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
         "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": true, "q_lake_pond": false,
