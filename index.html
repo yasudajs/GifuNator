@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GifuNator（ギフネイター）| 岐阜を当てる20の質問ゲーム</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <!-- ヘッダー -->
+    <header class="app-header">
+      <div class="logo-area">
+        <span class="logo-badge">清流の国 推理ゲーム</span>
+        <h1 class="logo-title">GifuNator <span>ギフネイター</span></h1>
+      </div>
+      <div class="header-stats">
+        <div class="stat-badge">
+          <span class="stat-label">残り質問</span>
+          <span id="remaining-questions-count" class="stat-value">20</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- キャラクター＆メッセージエリア -->
+    <section class="mascot-card">
+      <div class="mascot-avatar">🏔️</div>
+      <div class="speech-bubble">
+        <p id="mascot-speech">岐阜に関するモノを1つ心に決めたぞ。<br>下の質問をぶつけて、わしが考えたお題を当ててみよ！</p>
+      </div>
+    </section>
+
+    <!-- 質問選択エリア -->
+    <section class="section-card question-selection-section">
+      <div class="section-header">
+        <h2 class="section-title">▼ 質問を選んでタップ（残り <span id="q-count-inline">20</span> 回）</h2>
+        <button id="btn-refresh-questions" class="btn-refresh" title="質問の組み合わせを変える">🔄 質問を更新</button>
+      </div>
+      <div id="questions-pool" class="questions-grid">
+        <!-- JSでランダムな3つの質問が動的挿入されます -->
+      </div>
+    </section>
+
+    <!-- 質問と回答の履歴（ログ） -->
+    <section class="section-card history-section">
+      <div class="section-header">
+        <h2 class="section-title">これまでの質問履歴 (<span id="history-count">0</span>)</h2>
+      </div>
+      <div id="history-list" class="history-list">
+        <p class="empty-history">まだ質問していません。上のカードから質問を選んでください。</p>
+      </div>
+    </section>
+
+    <!-- 解答エリア（アタック） -->
+    <section class="section-card answer-section">
+      <div class="section-header">
+        <h2 class="section-title">💡 答えが分かったらアタック！</h2>
+      </div>
+
+      <!-- モード切り替えタブ -->
+      <div class="mode-tabs">
+        <button id="tab-candidate" class="tab-btn active">
+          🎯 候補から選ぶ（初級）
+        </button>
+        <button id="tab-direct" class="tab-btn">
+          ✍️ 直接入力する（上級）
+        </button>
+      </div>
+
+      <!-- 候補から選ぶモード -->
+      <div id="panel-candidate" class="answer-panel">
+        <div class="filter-chips">
+          <button class="chip active" data-filter="all">すべて (<span id="total-topics-count">30</span>)</button>
+          <button class="chip" data-filter="美濃">美濃</button>
+          <button class="chip" data-filter="飛騨">飛騨</button>
+          <button class="chip" data-filter="グルメ">グルメ</button>
+          <button class="chip" data-filter="名所">名所・観光</button>
+          <button class="chip" data-filter="伝統">工芸・歴史</button>
+        </div>
+        <div id="candidate-list" class="candidate-grid">
+          <!-- JSでお題ボタンが一覧表示されます -->
+        </div>
+      </div>
+
+      <!-- 直接入力モード -->
+      <div id="panel-direct" class="answer-panel hidden">
+        <form id="direct-answer-form" class="direct-form">
+          <input 
+            type="text" 
+            id="direct-input" 
+            placeholder="例: 白川郷、飛騨牛、岐阜城..." 
+            autocomplete="off" 
+            required
+          />
+          <button type="submit" class="btn-submit-answer">解答する！</button>
+        </form>
+        <p class="form-hint">※ 漢字・ひらがな・カタカナのいずれでも判定できます。</p>
+      </div>
+
+      <!-- 誤答メッセージ表示エリア -->
+      <div id="wrong-answer-feedback" class="wrong-feedback hidden"></div>
+    </section>
+  </div>
+
+  <!-- 結果モーダル（正解 or ゲームオーバー） -->
+  <div id="result-modal" class="modal-overlay hidden">
+    <div class="modal-card">
+      <div id="modal-header-icon" class="modal-icon">🎉</div>
+      <h2 id="modal-title" class="modal-title">正解！お見事！</h2>
+      <p id="modal-subtitle" class="modal-subtitle">正解は…</p>
+      
+      <div class="answer-reveal-card">
+        <h3 id="modal-target-name" class="target-name">白川郷</h3>
+        <span id="modal-target-meta" class="target-meta">飛騨 / 名所・世界遺産</span>
+        <p id="modal-target-desc" class="target-desc">世界文化遺産に登録されている合掌造り集落。冬の雪景色が絶景です。</p>
+      </div>
+
+      <div class="result-stats-card">
+        <div class="stat-row">
+          <span>消費した質問数</span>
+          <strong id="modal-used-questions">5 問</strong>
+        </div>
+        <div class="stat-row">
+          <span>あなたの岐阜度ランク</span>
+          <strong id="modal-rank-title" class="rank-highlight">岐阜マスター級</strong>
+        </div>
+      </div>
+
+      <div class="modal-actions">
+        <button id="btn-share-x" class="btn-share">𝕏 で結果をシェア</button>
+        <button id="btn-restart" class="btn-primary">もう一度遊ぶ</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

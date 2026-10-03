@@ -1,0 +1,574 @@
+{
+  "topics": [
+    {
+      "id": "t01",
+      "name": "岐阜城",
+      "reading": "ぎふじょう",
+      "aliases": ["金華山城", "稲葉山城", "ぎふじょう"],
+      "region": "美濃",
+      "category": "歴史・名所",
+      "description": "金華山（旧・稲葉山）の山頂にそびえる名城。かつて斎藤道三や織田信長の居城となり、信長が『井の口』から『岐阜』に改名し天下統一の足がかりとしました。夜のパノラマ夜景も圧巻です。",
+      "answers": {
+        "q_mino": true, "q_hida": false, "q_food": false, "q_spot": true, "q_craft": false, "q_person": false,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": true, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": true,
+        "q_nobunaga": true, "q_samurai": true, "q_edo": false, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
+        "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": true, "q_night": true, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t02",
+      "name": "織田信長",
+      "reading": "おだのぶなが",
+      "aliases": ["のぶなが", "信長公", "おだのぶなが"],
+      "region": "美濃",
+      "category": "歴史・人物",
+      "description": "尾張・美濃を制し、岐阜城を拠点に『天下布武』を掲げた戦国時代の英傑。『岐阜』という地名の命名者としても知られ、岐阜市名誉市民第1号でもあります。",
+      "answers": {
+        "q_mino": true, "q_hida": false, "q_food": false, "q_spot": false, "q_craft": false, "q_person": true,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
+        "q_nobunaga": true, "q_samurai": true, "q_edo": false, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
+        "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": true,
+        "q_festival_dance": true, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t03",
+      "name": "関ヶ原の戦い",
+      "reading": "せきがはらのたたかい",
+      "aliases": ["関ヶ原", "せきがはら", "天下分け目の戦い", "関ケ原古戦場"],
+      "region": "美濃",
+      "category": "歴史・合戦",
+      "description": "1600年（慶長5年）に徳川家康率いる東軍と石田三成率いる西軍が激突した『天下分け目の戦い』。現在は関ケ原古戦場記念館をはじめ、歴史ファンが集まる人気スポットです。",
+      "answers": {
+        "q_mino": true, "q_hida": false, "q_food": false, "q_spot": true, "q_craft": false, "q_person": true,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": true,
+        "q_nobunaga": false, "q_samurai": true, "q_edo": false, "q_winter_snow": false, "q_summer": false, "q_autumn": true,
+        "q_takehome": false, "q_paper": false, "q_iron_blade": true, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t04",
+      "name": "長良川鵜飼",
+      "reading": "ながらがわうかい",
+      "aliases": ["鵜飼い", "うかい", "ぎふ長良川の鵜飼", "鵜飼"],
+      "region": "美濃",
+      "category": "伝統行事・文化",
+      "description": "1300年以上の歴史を誇る伝統漁法。鵜匠がかがり火の明かりの中で何羽もの鵜を手縄で巧みに操り、鮎を捕らえます。宮内庁式部職鵜匠の肩書を持ち、皇室とも深い関わりがあります。",
+      "answers": {
+        "q_mino": true, "q_hida": false, "q_food": false, "q_spot": true, "q_craft": false, "q_person": true,
+        "q_meat": false, "q_fish": true, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": true, "q_mountain": false,
+        "q_nobunaga": true, "q_samurai": false, "q_edo": true, "q_winter_snow": false, "q_summer": true, "q_autumn": false,
+        "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": true, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": true, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": true, "q_clothing": true, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_national_treasure": false, "q_wooden": true, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t05",
+      "name": "養老の滝",
+      "reading": "ようろうのたき",
+      "aliases": ["ようろうのたき", "養老の滝"],
+      "region": "美濃",
+      "category": "自然・名所",
+      "description": "名水百選や日本の滝百選に選ばれる落差約32mの名瀑。親孝行な木こりが汲んだ水がお酒に変わったという『養老孝子伝説』で全国に知られています。",
+      "answers": {
+        "q_mino": true, "q_hida": false, "q_food": false, "q_spot": true, "q_craft": false, "q_person": false,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": true, "q_mountain": true,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": false, "q_winter_snow": false, "q_summer": true, "q_autumn": true,
+        "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": true,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t06",
+      "name": "モネの池",
+      "reading": "もねのいけ",
+      "aliases": ["名もなき池", "もねのいけ"],
+      "region": "美濃",
+      "category": "自然・名所",
+      "description": "関市板取の根道神社境内にある貯水池。湧水の極めて高い透明度と睡蓮、優雅に泳ぐ錦鯉が、まるで印象派画家クロード・モネの『睡蓮』のようだとSNSで大人気になりました。",
+      "answers": {
+        "q_mino": true, "q_hida": false, "q_food": false, "q_spot": true, "q_craft": false, "q_person": false,
+        "q_meat": false, "q_fish": true, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": true, "q_mountain": true,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": false, "q_winter_snow": false, "q_summer": true, "q_autumn": false,
+        "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": true, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": true,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t07",
+      "name": "郡上八幡",
+      "reading": "ぐじょうはちまん",
+      "aliases": ["郡上", "ぐじょう", "ぐじょうはちまん", "郡上おどり"],
+      "region": "美濃",
+      "category": "名所・文化",
+      "description": "『名水と踊りの城下町』。町中をめぐる美しい水路（宗祇水など）と、夏に30夜以上にわたって踊り明かすユネスコ無形文化遺産『郡上おどり（徹夜おどり）』が全国的に有名です。",
+      "answers": {
+        "q_mino": true, "q_hida": false, "q_food": false, "q_spot": true, "q_craft": false, "q_person": false,
+        "q_meat": false, "q_fish": true, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": true, "q_world_heritage": false, "q_hotspring": false, "q_water_river": true, "q_mountain": true,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": false, "q_summer": true, "q_autumn": false,
+        "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": true, "q_cave": false, "q_ropeway": false, "q_night": true, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": true, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_national_treasure": false, "q_wooden": true, "q_sound_music": true, "q_street": true
+      }
+    },
+    {
+      "id": "t08",
+      "name": "うだつの上がる町並み",
+      "reading": "うだつのあがるまちなみ",
+      "aliases": ["美濃市うだつの上がる町並み", "うだつ", "うだつのあがるまち"],
+      "region": "美濃",
+      "category": "名所・歴史",
+      "description": "美濃市にある国の重要伝統的建造物群保存地区。防火壁である『うだつ（卯建）』を上げた商家が連なり、『うだつが上がらない』の語源としても親しまれる美しい歴史的町並みです。",
+      "answers": {
+        "q_mino": true, "q_hida": false, "q_food": false, "q_spot": true, "q_craft": false, "q_person": false,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": true, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": false, "q_summer": false, "q_autumn": true,
+        "q_takehome": false, "q_paper": true, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": true, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_national_treasure": true, "q_wooden": true, "q_sound_music": false, "q_street": true
+      }
+    },
+    {
+      "id": "t09",
+      "name": "恵那峡",
+      "reading": "えなきょう",
+      "aliases": ["えなきょう"],
+      "region": "美濃",
+      "category": "自然・名所",
+      "description": "木曽川を大井ダムでせき止めてできた人工湖の渓谷美。奇岩・怪石がそそり立ち、春の桜や秋の紅葉、遊覧船クルーズで大自然の景観を楽しめる東濃屈指の観光名所です。",
+      "answers": {
+        "q_mino": true, "q_hida": false, "q_food": false, "q_spot": true, "q_craft": false, "q_person": false,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": true, "q_mountain": true,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": false, "q_winter_snow": false, "q_summer": false, "q_autumn": true,
+        "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": true,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t10",
+      "name": "鮎（鮎の塩焼き）",
+      "reading": "あゆ",
+      "aliases": ["あゆのしおやき", "アユ", "鮎", "長良川鮎"],
+      "region": "美濃",
+      "category": "グルメ・特産",
+      "description": "『清流の女王』と呼ばれる岐阜県の県魚。長良川の鮎は世界農業遺産（GIAHS）にも認定されており、香ばしく炭火で焼き上げた塩焼きは夏の風物詩です。",
+      "answers": {
+        "q_mino": true, "q_hida": true, "q_food": true, "q_spot": false, "q_craft": false, "q_person": false,
+        "q_meat": false, "q_fish": true, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": true,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": true, "q_mountain": false,
+        "q_nobunaga": true, "q_samurai": false, "q_edo": false, "q_winter_snow": false, "q_summer": true, "q_autumn": false,
+        "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": true, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": true, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": true, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t11",
+      "name": "栗きんとん",
+      "reading": "くりきんとん",
+      "aliases": ["くりきんとん", "中津川栗きんとん"],
+      "region": "美濃",
+      "category": "グルメ・和菓子",
+      "description": "中津川市・恵那市発祥の秋を代表する銘菓。新鮮な栗に少量の砂糖を加えて炊き上げ、茶巾絞りで栗の形に仕上げる素朴で上品な極上スイーツです。",
+      "answers": {
+        "q_mino": true, "q_hida": false, "q_food": true, "q_spot": false, "q_craft": false, "q_person": false,
+        "q_meat": false, "q_fish": false, "q_sweet": true, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": true,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": false, "q_summer": false, "q_autumn": true,
+        "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": true, "q_alcohol_snack": false,
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t12",
+      "name": "岐阜タンメン",
+      "reading": "ぎふたんめん",
+      "aliases": ["ぎふタンメン", "岐阜たんめん"],
+      "region": "美濃",
+      "category": "グルメ・ソウルフード",
+      "description": "豚肉、白菜、キャベツ、にんにくの旨味を凝縮した塩だしベースのスープに細麺、辛味ダレを合わせた岐阜発祥のご当地ラーメン。深夜まで行列ができる大人気ソウルフードです。",
+      "answers": {
+        "q_mino": true, "q_hida": false, "q_food": true, "q_spot": false, "q_craft": false, "q_person": false,
+        "q_meat": true, "q_fish": false, "q_sweet": false, "q_noodle": true, "q_miso": false, "q_rice": false, "q_hot": true,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": false, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
+        "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": true,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": true, "q_kitchen": true, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": true, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t13",
+      "name": "鶏ちゃん",
+      "reading": "けいちゃん",
+      "aliases": ["けいちゃん", "ケイちゃん", "鶏チャン"],
+      "region": "美濃",
+      "category": "グルメ・郷土料理",
+      "description": "下呂市や郡上市などの山間部で親しまれる郷土料理。鶏肉を醤油や味噌、ニンニクなどのタレに漬け込み、キャベツなどと一緒に鉄板で香ばしく炒めて食べます。",
+      "answers": {
+        "q_mino": true, "q_hida": true, "q_food": true, "q_spot": false, "q_craft": false, "q_person": false,
+        "q_meat": true, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": true, "q_rice": false, "q_hot": true,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": true,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": false, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
+        "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": true, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": true, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t14",
+      "name": "明宝ハム",
+      "reading": "めいほうはむ",
+      "aliases": ["めいほうハム", "めいほうはむ", "明方ハム"],
+      "region": "美濃",
+      "category": "グルメ・特産",
+      "description": "郡上市明宝で作られる高級プレスハム。良質な国産豚肉だけを使い、保存料などを極力使わず職人の手作業で作られており、噛むほどに溢れる肉の旨味が絶品です。",
+      "answers": {
+        "q_mino": true, "q_hida": false, "q_food": true, "q_spot": false, "q_craft": false, "q_person": false,
+        "q_meat": true, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": true,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": false, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
+        "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": true, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t15",
+      "name": "関の刃物",
+      "reading": "せきのはもの",
+      "aliases": ["関の包丁", "せきのはもの", "関刃物"],
+      "region": "美濃",
+      "category": "伝統工芸・産業",
+      "description": "『折れず、曲がらず、よく切れる』と称賛される関市の刀鍛冶の伝統を継ぐ名産品。ドイツのゾーリンゲンと並ぶ世界三大刃物産地の一つとして包丁や爪切りが世界中で愛用されています。",
+      "answers": {
+        "q_mino": true, "q_hida": false, "q_food": false, "q_spot": false, "q_craft": true, "q_person": false,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": true, "q_mountain": false,
+        "q_nobunaga": false, "q_samurai": true, "q_edo": true, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
+        "q_takehome": true, "q_paper": false, "q_iron_blade": true, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": true, "q_lake_pond": false,
+        "q_famous_three": true, "q_fire": true, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t16",
+      "name": "美濃和紙",
+      "reading": "みのわし",
+      "aliases": ["みのわし", "本美濃紙"],
+      "region": "美濃",
+      "category": "伝統工芸",
+      "description": "1300年以上の歴史を誇る伝統手漉き和紙。『本美濃紙』の手漉き技術はユネスコ無形文化遺産にも登録されており、薄く均一で強靭な美しさは岐阜提灯や和傘にも活かされています。",
+      "answers": {
+        "q_mino": true, "q_hida": false, "q_food": false, "q_spot": false, "q_craft": true, "q_person": false,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": false, "q_world_heritage": true, "q_hotspring": false, "q_water_river": true, "q_mountain": false,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
+        "q_takehome": true, "q_paper": true, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": true, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_national_treasure": true, "q_wooden": false, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t17",
+      "name": "美濃焼",
+      "reading": "みのやき",
+      "aliases": ["みのやき", "志野焼", "織部焼"],
+      "region": "美濃",
+      "category": "伝統工芸・産業",
+      "description": "多治見市・土岐市・瑞浪市などで生産される陶磁器。実は日本国内で生産される食器の約50%を占める最大のシェアを誇り、志野・織部・黄瀬戸など多彩な様式が魅力です。",
+      "answers": {
+        "q_mino": true, "q_hida": false, "q_food": false, "q_spot": false, "q_craft": true, "q_person": false,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
+        "q_nobunaga": false, "q_samurai": true, "q_edo": true, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
+        "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": true, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": true, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": true, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_national_treasure": true, "q_wooden": false, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t18",
+      "name": "白川郷",
+      "reading": "しらかわごう",
+      "aliases": ["白川郷合掌造り集落", "しらかわごう", "合掌造り"],
+      "region": "飛騨",
+      "category": "名所・世界遺産",
+      "description": "豪雪地帯特有の急勾配な茅葺き屋根を持つ『合掌造り』の集落。1995年にユネスコ世界文化遺産に登録され、今も人々が生活を営む日本の原風景として国内外から愛されています。",
+      "answers": {
+        "q_mino": false, "q_hida": true, "q_food": false, "q_spot": true, "q_craft": false, "q_person": false,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": true, "q_world_heritage": true, "q_hotspring": false, "q_water_river": true, "q_mountain": true,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": true, "q_summer": false, "q_autumn": false,
+        "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": true, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": true, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_national_treasure": true, "q_wooden": true, "q_sound_music": false, "q_street": true
+      }
+    },
+    {
+      "id": "t19",
+      "name": "下呂温泉",
+      "reading": "げろおんせん",
+      "aliases": ["げろおんせん", "下呂"],
+      "region": "飛騨",
+      "category": "名所・温泉",
+      "description": "草津・有馬と並ぶ『日本三名泉』の一つ。アルカリ性単純温泉のまろやかで滑らかなお湯は『美肌の湯』として知られ、飛騨川沿いに情緒ある温泉街が広がります。",
+      "answers": {
+        "q_mino": false, "q_hida": true, "q_food": false, "q_spot": true, "q_craft": false, "q_person": false,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": true,
+        "q_building": true, "q_world_heritage": false, "q_hotspring": true, "q_water_river": true, "q_mountain": true,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": true, "q_summer": false, "q_autumn": false,
+        "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": true, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": true, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_national_treasure": false, "q_wooden": true, "q_sound_music": false, "q_street": true
+      }
+    },
+    {
+      "id": "t20",
+      "name": "高山陣屋 / 古い町並み",
+      "reading": "たかやまじんや",
+      "aliases": ["飛騨高山", "古い町並み", "さんまち通り", "高山陣屋", "たかやま"],
+      "region": "飛騨",
+      "category": "名所・歴史",
+      "description": "江戸幕府の直轄領（天領）代官所として現存する唯一の遺構『高山陣屋』と、出格子が美しい『三町通りの古い町並み』。『飛騨の小京都』と称され、国内外の観光客を魅了します。",
+      "answers": {
+        "q_mino": false, "q_hida": true, "q_food": false, "q_spot": true, "q_craft": false, "q_person": false,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": true, "q_world_heritage": false, "q_hotspring": false, "q_water_river": true, "q_mountain": true,
+        "q_nobunaga": false, "q_samurai": true, "q_edo": true, "q_winter_snow": true, "q_summer": false, "q_autumn": false,
+        "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_national_treasure": true, "q_wooden": true, "q_sound_music": false, "q_street": true
+      }
+    },
+    {
+      "id": "t21",
+      "name": "新穂高ロープウェイ",
+      "reading": "しんほたかろーぷうぇい",
+      "aliases": ["新穂高", "しんほたか"],
+      "region": "飛騨",
+      "category": "名所・自然",
+      "description": "日本で唯一の2階建てゴンドラ（ダブルデッカー）を運行するロープウェイ。標高2,156mの展望台からは槍ヶ岳や西穂高岳など北アルプスの大迫力の360度大パノラマが広がります。",
+      "answers": {
+        "q_mino": false, "q_hida": true, "q_food": false, "q_spot": true, "q_craft": false, "q_person": false,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": true, "q_water_river": false, "q_mountain": true,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": false, "q_winter_snow": true, "q_summer": true, "q_autumn": true,
+        "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": true, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t22",
+      "name": "飛騨大鍾乳洞",
+      "reading": "ひだだいしょうにゅうどう",
+      "aliases": ["飛騨鍾乳洞", "ひだだいしょうにゅうどう"],
+      "region": "飛騨",
+      "category": "名所・自然",
+      "description": "標高900mという日本一高い場所にある観光鍾乳洞。全長約800mにわたる幻想的な地下世界で、ヘリクタイトと呼ばれる珍しい曲がり石やライトアップが見どころです。",
+      "answers": {
+        "q_mino": false, "q_hida": true, "q_food": false, "q_spot": true, "q_craft": false, "q_person": false,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": true, "q_mountain": true,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": false, "q_winter_snow": false, "q_summer": true, "q_autumn": false,
+        "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": true, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t23",
+      "name": "飛騨牛",
+      "reading": "ひだぎゅう",
+      "aliases": ["ひだうし", "ひだぎゅう", "飛騨牛ステーキ", "飛騨牛にぎり"],
+      "region": "飛騨",
+      "category": "グルメ・特産",
+      "description": "きめ細やかな霜降りと芳醇な香りが自慢の岐阜県が誇る最高級黒毛和牛ブランド。ステーキ、すき焼きはもちろん、高山観光での『飛騨牛にぎり寿司』や串焼きも絶品です。",
+      "answers": {
+        "q_mino": false, "q_hida": true, "q_food": true, "q_spot": false, "q_craft": false, "q_person": false,
+        "q_meat": true, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": true,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": true,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": false, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
+        "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": true, "q_red": true,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": true, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": true, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t24",
+      "name": "高山ラーメン",
+      "reading": "たかやまらーめん",
+      "aliases": ["飛騨高山ラーメン", "中華そば", "たかやまらーめん"],
+      "region": "飛騨",
+      "category": "グルメ・ご当地麺",
+      "description": "鶏ガラ・鰹節・野菜の出汁と醤油ダレを一緒に寸胴で煮込む独特の製法で作られるスープと、細縮れ麺が特徴の中華そば。映画『君の名は。』に登場したことでも脚光を浴びました。",
+      "answers": {
+        "q_mino": false, "q_hida": true, "q_food": true, "q_spot": false, "q_craft": false, "q_person": false,
+        "q_meat": true, "q_fish": true, "q_sweet": false, "q_noodle": true, "q_miso": false, "q_rice": false, "q_hot": true,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": true,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": false, "q_winter_snow": true, "q_summer": false, "q_autumn": false,
+        "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": true, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": true, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t25",
+      "name": "朴葉味噌",
+      "reading": "ほおばみそ",
+      "aliases": ["ほうばみそ", "ほおばみそ", "朴葉みそ"],
+      "region": "飛騨",
+      "category": "グルメ・郷土料理",
+      "description": "枯れたホオノキの葉（朴葉）の上に、特製の味噌、ネギ、きのこなどをのせて卓上コンロや七輪で焼く飛騨地方の伝統郷土料理。香ばしい香りがご飯もお酒も進ませます。",
+      "answers": {
+        "q_mino": false, "q_hida": true, "q_food": true, "q_spot": false, "q_craft": false, "q_person": false,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": true, "q_rice": false, "q_hot": true,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": true,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": true, "q_summer": false, "q_autumn": true,
+        "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": true, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": true, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
+        "q_national_treasure": false, "q_wooden": true, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t26",
+      "name": "みだらしだんご",
+      "reading": "みだらしだんご",
+      "aliases": ["みたらし団子", "みだらし団子", "みだらしだんご"],
+      "region": "飛騨",
+      "category": "グルメ・和菓子",
+      "description": "一般的な甘辛い餡とは異なり、甘くない醤油ダレをくぐらせて香ばしく焼き上げる飛騨高山名物。一口サイズで食べ歩きにぴったりのソウルフードです。",
+      "answers": {
+        "q_mino": false, "q_hida": true, "q_food": true, "q_spot": false, "q_craft": false, "q_person": false,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": true, "q_hot": true,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
+        "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": true, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": true, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": true
+      }
+    },
+    {
+      "id": "t27",
+      "name": "赤かぶ漬け",
+      "reading": "あかかぶづけ",
+      "aliases": ["赤かぶら漬け", "あかかぶづけ", "赤かぶ"],
+      "region": "飛騨",
+      "category": "グルメ・特産",
+      "description": "飛騨特産の赤かぶらを塩漬けにし、乳酸発酵によって鮮やかな紅色に染まる伝統の漬物。厳しい冬を越すための保存食として受け継がれ、心地よい酸味と歯ごたえが特徴です。",
+      "answers": {
+        "q_mino": false, "q_hida": true, "q_food": true, "q_spot": false, "q_craft": false, "q_person": false,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": true,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": true, "q_summer": false, "q_autumn": false,
+        "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": true,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": true, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": true,
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t28",
+      "name": "さるぼぼ",
+      "reading": "さるぼぼ",
+      "aliases": ["さるぼぼ人形", "サルボボ", "さるぼぼ"],
+      "region": "飛騨",
+      "category": "民芸品・お土産",
+      "description": "飛騨弁で『猿の赤ちゃん』を意味する伝統の人形。顔が描かれていないのが特徴で、子宝・安産・魔除け・無病息災を願うお守りとして飛騨地方のシンボルになっています。",
+      "answers": {
+        "q_mino": false, "q_hida": true, "q_food": false, "q_spot": false, "q_craft": true, "q_person": false,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
+        "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": true, "q_red": true,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": true, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_national_treasure": false, "q_wooden": false, "q_sound_music": false, "q_street": false
+      }
+    },
+    {
+      "id": "t29",
+      "name": "高山祭",
+      "reading": "たかやままつり",
+      "aliases": ["高山祭り", "春の高山祭", "秋の高山祭", "山王祭", "八幡祭"],
+      "region": "飛騨",
+      "category": "祭り・伝統文化",
+      "description": "京都の祇園祭、埼玉の秩父夜祭と並ぶ『日本三大美祭』の一つ。豪華絢爛な『屋台（山車）』と精密なからくり人形の奉納、夜の提灯行列がユネスコ無形文化遺産にも指定されています。",
+      "answers": {
+        "q_mino": false, "q_hida": true, "q_food": false, "q_spot": false, "q_craft": true, "q_person": true,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": false, "q_world_heritage": true, "q_hotspring": false, "q_water_river": false, "q_mountain": false,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": false, "q_summer": false, "q_autumn": true,
+        "q_takehome": false, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": true,
+        "q_festival_dance": true, "q_cave": false, "q_ropeway": false, "q_night": true, "q_kitchen": false, "q_lake_pond": false,
+        "q_famous_three": true, "q_fire": false, "q_clothing": true, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_national_treasure": true, "q_wooden": true, "q_sound_music": true, "q_street": true
+      }
+    },
+    {
+      "id": "t30",
+      "name": "飛騨春慶",
+      "reading": "ひだしゅんけい",
+      "aliases": ["飛騨春慶塗", "ひだしゅんけい", "春慶塗"],
+      "region": "飛騨",
+      "category": "伝統工芸",
+      "description": "ヒノキやサワラなどの美しい天然木目をそのまま活かし、透明度の高い黄金色の漆を塗り重ねて仕上げる国の伝統的工芸品。重箱やお盆、茶道具として400年以上の歴史を紡いでいます。",
+      "answers": {
+        "q_mino": false, "q_hida": true, "q_food": false, "q_spot": false, "q_craft": true, "q_person": false,
+        "q_meat": false, "q_fish": false, "q_sweet": false, "q_noodle": false, "q_miso": false, "q_rice": false, "q_hot": false,
+        "q_building": false, "q_world_heritage": false, "q_hotspring": false, "q_water_river": false, "q_mountain": true,
+        "q_nobunaga": false, "q_samurai": false, "q_edo": true, "q_winter_snow": false, "q_summer": false, "q_autumn": false,
+        "q_takehome": true, "q_paper": false, "q_iron_blade": false, "q_ceramic": false, "q_animal": false, "q_red": false,
+        "q_festival_dance": false, "q_cave": false, "q_ropeway": false, "q_night": false, "q_kitchen": true, "q_lake_pond": false,
+        "q_famous_three": false, "q_fire": false, "q_clothing": false, "q_gift_sweet": false, "q_alcohol_snack": false,
+        "q_national_treasure": true, "q_wooden": true, "q_sound_music": false, "q_street": false
+      }
+    }
+  ]
+}
