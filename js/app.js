@@ -46,11 +46,48 @@ const elements = {
   modalUsedQuestions: document.getElementById('modal-used-questions'),
   modalRankTitle: document.getElementById('modal-rank-title'),
   btnShareX: document.getElementById('btn-share-x'),
-  btnRestart: document.getElementById('btn-restart')
+  btnRestart: document.getElementById('btn-restart'),
+  splashScreen: document.getElementById('splash-screen'),
+  btnSkipSplash: document.getElementById('btn-skip-splash')
 };
+
+// スプラッシュ（アイキャッチ）画面の制御
+function setupSplashScreen() {
+  const splash = elements.splashScreen;
+  if (!splash) return;
+
+  let dismissed = false;
+  const dismiss = () => {
+    if (dismissed) return;
+    dismissed = true;
+    splash.classList.add('fade-out');
+    setTimeout(() => {
+      splash.style.display = 'none';
+    }, 850);
+  };
+
+  // 3秒後に滑らかにフェードアウト
+  const timer = setTimeout(dismiss, 3000);
+
+  // スキップボタンまたは画面タップで即時移行
+  if (elements.btnSkipSplash) {
+    elements.btnSkipSplash.addEventListener('click', (e) => {
+      e.stopPropagation();
+      clearTimeout(timer);
+      dismiss();
+    });
+  }
+
+  splash.addEventListener('click', () => {
+    clearTimeout(timer);
+    dismiss();
+  });
+}
 
 // 初期化
 async function init() {
+  setupSplashScreen();
+
   try {
     const [topicsRes, questionsRes] = await Promise.all([
       fetch('data/topics.json'),
